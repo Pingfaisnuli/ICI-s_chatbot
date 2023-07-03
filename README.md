@@ -1,6 +1,6 @@
 # Project Title
 
-ICI_chatbot
+ICI_Chatbot
 
 ## Project Description
 
