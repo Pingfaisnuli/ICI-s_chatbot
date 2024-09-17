@@ -13,6 +13,7 @@ With the help of ICI Chatbot, an efficient way of communication will be created.
 ICI Chatbot is written in Python, to get started with the ICI Chatbot, follow these steps: 
 1. Run the Python code:
    llama_index, Openai and Gradio are the required packages for our model.
+
    First, we will import GPTVectorStoreIndex, SimpleDirectoryReader, Document, LLMPredictor,
    PromptHelper, ServiceContext, and GPTListIndex from llama_index. Connect to google drive to
    import the input data file. and install Openai (the Openai’s API key is required, in order
@@ -33,13 +34,14 @@ ICI Chatbot is written in Python, to get started with the ICI Chatbot, follow th
    - using GPTVectorStoreIndex to create an empty index for inserting each document into the
      index, which enables efficient retrieval or searching based on their content.
 	
-    fourth, set up the model with specific settings such as the maximum size of the input, the
+    Fourth, set up the model with specific settings such as the maximum size of the input, the
    number of output tokens, the maximum overlap between chucks, etc. and create an index to
    store information. Then, it configures a system to search and retrieve information from the
    index based on user queries.
    
 2. Interact with the chatbot by inputting your questions or queries on Gradio:
-In order to make our model more use- friendly, we create a user interface by installing Gradio and create a function to interact with users by answering user’s questions
+   In order to make our model more use- friendly, we create a user interface by installing Gradio and create a function to interact with users by answering user’s
+   questions.
 
 3. See how the chatbot answers
 
